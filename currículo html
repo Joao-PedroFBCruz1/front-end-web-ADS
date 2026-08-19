@@ -1,0 +1,88 @@
+@ -0,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <tittle>Currículo - João Pedro Ferreira Barros da Cruz</tittle>
+
+    </head>
+
+    <body>
+        <center>
+        <div id="cabeçalho">
+            <img src="./images/foto_de_perfil.jpg" alt="Foto de Perfil">
+            <h1>João Pedro Ferreira Barros da Cruz</h1>
+            <p>Rua Lins, 460º</p>
+            <p>(43) 98424-0178</p>
+            <p>Idade: <b>23</b></p>
+            <p>
+                <a href="mailto:joaopedrofbc.jopfbdc@gmail.com">joaopedrofbc.jopfbdc@gmail.com</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com">LinkedIn</a>
+            </p>
+        </div>
+        <hr>
+        <div id="conteudo">
+            <div>
+                <h2>Resumo</h2>
+                <p>
+                    Tenho fome, fome de dinheiro, fome de <b>sucesso</b> e fome de <i><b>coxinha</b></i>.<br>
+                    Sou aluno de ADS na UP e trabalho digitando laudos
+                </p>
+            </div>
+
+            <div>
+                <h2>Formação</h2>
+                <ol>
+                    <li>Nenhuma</li>
+                    <li><b>Nenhuma</b></li>
+                    <li><i>Nenhuma</i></li>
+                </ol>
+            </div>
+
+            <div>
+                <h2>Experiência</h2>
+                <ul>
+                    <li>Lab Imagem</li>
+                    <li><b>Em lugar nenhum</b></li>
+                    <li><i>Em luger nenhum</i></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Idiomas</h2>
+                <table border="2">
+                    <tr>
+                        <th>Idioma</th>
+                        <th>Nível</th>
+                    </tr>
+
+                    <tr>
+                        <td>Português</td>
+                        <td>Nativo</td>
+                    </tr>
+
+                    <tr>
+                        <td>Inglês</td>
+                        <td>Fluent</td>
+                    </tr>
+
+                    <tr>
+                        <td>Espanhol</td>
+                        <td>Hablo muy poco</td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+
+        </div>
+
+        <div id="rodape">
+            <p>
+                Currículo atualizado em <b><i>12/08/2026</i></b></p>
+            </p>
+        </div>
+        </center>
+    </body>
+</html>
