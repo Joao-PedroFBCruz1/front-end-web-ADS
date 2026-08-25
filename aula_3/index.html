@@ -17,22 +17,30 @@
                         <legend>Dados pessoais</legend>
                         <div>
                             <lable for="nome_id">Nome completo:</lable>
-                            <input id="nome_id" name="nome" type="text">
+                            <input id="nome_id" 
+                                   name="nome" 
+                                   type="text">
                         </div>
 
                         <div>
                             <lable for="telefone_id">Telefone:</lable>
-                            <input id="telefone_id" nome="telefone" type="tel">
+                            <input id="telefone_id" 
+                                   nome="telefone" 
+                                   type="tel">
                         </div>
 
                         <div>
                             <lable for="email_id">E-mail:</lable>
-                            <input id="email_id" name="email" type="email">
+                            <input id="email_id"
+                                   name="email" 
+                                   type="email">
                         </div>
 
                         <div>
                             <lable for="data_nasc_id">Data de nascimento:</lable>
-                            <input id="data_nasc_id" name="data_nasc" type="date">
+                            <input id="data_nasc_id" 
+                                   name="data_nasc" 
+                                   type="date">
                         </div>
                     </fieldset>
 
@@ -40,7 +48,9 @@
                         <legend>Endereço</legend>
                         <div>
                             <lable for="logradouro_id">Logradrouro</lable>
-                            <input id="logradouro_id" name="logradouro" type="text">
+                            <input id="logradouro_id" 
+                                   name="logradouro" 
+                                   type="text">
                         </div>
 
                         <div>
@@ -50,7 +60,82 @@
 
                         <div>
                             <lable for="numero_id">Número:</lable>
-                            <input id="numero_id" name="numero" type="number">
+                            <input id="numero_id" 
+                                   name="numero" 
+                                   type="number">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Biografia</legend>
+                        <div>
+                            <lable for="resumo_id">Fale sobre você</lable>
+                            <textarea id="resumo_id" 
+                                      name="resumo" 
+                                      rows="10" 
+                                      cols="50"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Nível pretendido</legend>
+                        <div>
+                            <input id="estagiário_id"
+                                   name="nivel" 
+                                   type="radio"
+                                   value="estagiário">
+                            <lable for="estagiário_id">Estagiário</lable>
+                        </div>
+
+                        <div>
+                            <input id="junior_id"
+                                   name="nivel"
+                                   type="radio"
+                                   value="junior">
+                            <lable for="junior_id">Júnior</lable>
+                        </div>
+
+                        <div>
+                            <input id="pleno_id"
+                                   name="nivel"
+                                   type="radio"
+                                   value="pleno">
+                            <lable for="pleno_id">Pleno</lable>
+                        </div>
+
+                        <div>
+                            <input id="senior_id"
+                                   name="nivel"
+                                   type="radio"
+                                   value="senior">
+                            <lable for="senior_id">Sênior</lable>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Tecnologias</legend>
+                        <div>
+                            <input id="tec_html_id"
+                                   name="tecnologia"
+                                   type="checkbox"
+                                   value="html">
+                            <lable for="tec_html_id">HTML</lable>
+                        </div>
+
+                        <div>
+                            <input id="tec_css_id"
+                                   name="tecnologias"
+                                   type="checkbox"
+                                   value="css">
+                            <lable for="tec_css_id">CSS</lable>
+                        </div>
+
+                        <div>
+                            <input id="tec_js_id"
+                                   name="tecnologias"
+                                   type="checkbox"
+                                   value="js">
+                            <lable for="tec_js_id">JavaScript</lable>
                         </div>
                     </fieldset>
                 </form>
