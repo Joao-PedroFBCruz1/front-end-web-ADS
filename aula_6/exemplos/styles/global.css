@@ -111,7 +111,7 @@ footer {
         "cabecalho cabecalho"
         "principal artigo"
         "rodape rodape";
-    grid-template-columns: 3fr 1f;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 4fr 0.5fr;
     gap: 0.5rem;
     height: 300px;
