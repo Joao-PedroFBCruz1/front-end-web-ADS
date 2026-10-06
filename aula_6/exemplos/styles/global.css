@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background-color: #dfdfdf;
+    color: #151515;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    opacity: 0.8;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+section {
+    background-color: #8f8989;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.item {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 60, 231);
+
+}
+
+.container-block .item {
+    display: block;
+    height: 1.5rem;
+    margin: 0.5rem;
+}
+
+.container-inline .item{
+    display: inline;
+}
+
+.container-inline-block .item{
+    display: inline-block;
+    padding: 0.5rem;
+    width: 5rem;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    gap: 0.5rem;
+}
+
+.container-flex .item {
+    padding: 0.5rem;
+    flex-basis: 4rem;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+#item-2{
+    flex-grow: 2;
+}
+
+#item-3{
+    flex-grow: 3;
+}
+
+.container-grid {
+    display: grid;
+    border: 3px solid black;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    gap: 0.5rem;
+    background-color: rgb(11, 156, 182);
+}
+
+.container-grid .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid salmon;
+    border-radius: 3%;
+}
+
+.container-grid-area{
+    display: grid;
+    grid-template-areas: 
+        "cabecalho cabecalho"
+        "principal artigo"
+        "rodape rodape";
+    grid-template-columns: 3fr 1f;
+    grid-template-rows: 1fr 4fr 0.5fr;
+    gap: 0.5rem;
+    height: 300px;
+}
+
+.container-grid-area div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-grid-area .item-cabecalho{
+    grid-area: cabecalho;
+    background-color:  lightskyblue;
+}
+
+.container-grid-area .item-principal{
+    grid-area: principal;
+    background-color: darkblue;
+}
+
+.container-grid-area .item-artigo{
+    grid-area: artigo;
+    background-color: lightblue;
+}
+
+.container-grid-area .item-rodape{
+    grid-area: rodape;
+    background-color: lightslategray;
+}

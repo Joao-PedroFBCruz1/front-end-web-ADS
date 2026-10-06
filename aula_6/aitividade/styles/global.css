@@ -1,9 +1,8 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-size: 16px;
     font-family: Arial, sans-serif;
@@ -22,12 +21,6 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
-p {
-    opacity: 0.8;
-    font-size: 0.8rem;
-    margin-top: 0.5rem;
-}
-
 section {
     background-color: #8f8989;
     padding: 1rem;
@@ -37,29 +30,13 @@ section {
     text-align: center;
 }
 
-footer {
-    text-align: center;
-}
-
-.item {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgb(60, 60, 231);
-
-}
-
-.container-block .item {
-    display: block;
-    height: 1.5rem;
-    margin: 0.5rem;
-}
-
-.container-inline .item{
-    display: inline;
-}
-
-.container-inline-block .item{
-    display: inline-block;
-    padding: 0.5rem;
-    width: 5rem;
+.cointer-grid-area{
+    display: grid;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+    "artigo artigo"
+    "texto1 texto2"
+    "principal"
+    "rodape rodape";
+    grid-template-columns: 1fr 2fr 1fr 3fr 0.5fr;
 }
