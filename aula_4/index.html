@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Recrutamento Online</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <header>
+       <h1>Recrutamento Online</h1>
+    </header>
+    <main>
+       <section>
+          <h2>Cadastre seu currículo</h2>
+          <form action="https://postman-echo.com/post" method="post" enctype="miltipart/form-data">
+            <p>Preencha o formulário abaixo para se candidatar à vaga</p>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+               <div>
+                <label for="foto_id">Foto:</label>
+                <input id="foto_id" name="foto" type="file" accept="image/*">
+               </div>
+                <div>
+                    <label for="nome_id">Nome completo:</label>
+                    <input id="nome_id" name="nome" type="text" placeholder="Fulano de Tal">
+                 </div>
+                 <div>
+                    <label for="telefone_id">Telefone:</label>
+                    <input id="telefone_id" name="telefone" type="tel" required>
+                 </div>
+                 <div>
+                    <label for="email_id">Email:</label>
+                    <input id="email_id" name="email" type="email">
+                 </div>
+                 <div>
+                    <label for="data_nasc_id">Data de nascimento:</label>
+                    <input id="data_nasc_id" name="data_nasc" type="date">
+                 </div>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <div>
+                    <label for="longradouro_id">Longradouro:</label>
+                    <input id="longradouro_id" name="longradouro" type="text">
+                </div>
+                <div>
+                    <label for="cidade_id">Cidade-UF:</label>
+                    <input id="cidade_id" name="cidade" type="text">
+                </div>
+                <div> 
+                    <label for="numero_id">Número:</label>
+                    <input id="numero_id" name="numero" type="number">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Biografia</legend>
+                <div>
+                    <label for="resumo_id">Fale mais sobre você</label>
+                    <textarea id="resumo_id" name="resumo" rowrs="16"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Nível pretendido</legend>
+                <div>
+                    <input id="estagiário_id" name="nível" type="radio" value="estagiário">
+                    <label for="estagiário_id">Estagiário</label>
+                </div>
+                <div>
+                    <input id="junior_id" name="nível" type="radio" value="junior">
+                    <label fdor="junior_id">Júnior</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Tecnologias</legend>
+                <div>
+                    <input id="tech_html_id" name="tecnologia" type="checkbox" value="html">
+                    <label for="tech_html_id">HTML</label>
+                </div>
+                <div>
+                  <input id="tec_css_id" name="tecnologia" type="checkbox" value="css">
+                    <label for="tec_css_id">CCS</label>
+                </div>
+                <div>
+                     <input id="tec_js_id" name="tecnologia" type="checkbox" value="js">
+                    <label for="tec_js_id">JavaScript</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Grau de instrução</legend>
+                <div>
+                    <label for="escolaridade_id">Escolaridade:</label>
+                    <select id="escolaridade_id" name="escolaridade">
+                    <option value="medio">Ensino Médio</option>
+                    <option value="garduacao">Graduação</option>
+                    <option value="pos">Pós-Graduação</option>
+                <select>
+                </div>
+            </fieldset>
+            <div>
+            <button type="reset">Limpar dados></button>
+            <button typr="submit">Enviar candidatura</button>
+            </div>
+          </form>
+       </section>
+    </main>
+    <footer>
+<p>Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>
